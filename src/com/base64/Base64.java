@@ -151,7 +151,10 @@ package com.base64;
 public class Base64
 {
     
-/* ********  P U B L I C   F I E L D S  ******** */   
+/* ********  P U B L I C   F I E L D S  ******** */  
+	/**
+	 * we make a change and commit
+	 */
     
     
     /** No options specified. Value is zero. */

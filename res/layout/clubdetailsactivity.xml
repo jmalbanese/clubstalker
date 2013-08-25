@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+  <ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+	   			android:layout_width="fill_parent"
+ 				android:layout_height="fill_parent"
+				android:fillViewport="true"
+				android:gravity="center"
+>
+
+	        <LinearLayout
+	            xmlns:android="http://schemas.android.com/apk/res/android"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:gravity="center"
+	            android:padding="5dip"
+	             >
+ 			
+ 						<ImageView
+					        android:id="@+id/image"
+					        android:layout_gravity="center_horizontal"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:scaleType="fitCenter"
+					        android:src="@drawable/stub" 
+					        android:contentDescription="@string/detailscontentdescription"
+					        />
+
+
+							<LinearLayout
+							xmlns:android="http://schemas.android.com/apk/res/android"
+	   			            android:layout_width="fill_parent"
+	   			            android:layout_height="wrap_content"
+	   			            android:paddingTop="5dip"
+	   			            android:gravity="center"
+	   			            android:orientation="horizontal"
+						    >
+					
+							    <Button
+							        android:id="@+id/gallery"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttongallery"
+							        android:text="@string/BUTTON_LABLE_GALLERY"
+							    />
+																        						
+							    <Button
+							        android:id="@+id/video"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttonvideo"
+							        android:text="@string/BUTTON_LABLE_VIDEO"
+							    />
+									    
+								<Button
+								        android:id="@+id/phone"
+								        style="@style/callmebuttons"
+								        android:drawableTop="@drawable/imagebuttontelephone"
+								        android:text="@string/BUTTON_LABLE_PHONE" 
+							        />
+							    <Button
+							        android:id="@+id/map"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttonmap"
+							        android:text="@string/BUTTON_LABLE_MAP"
+							   />
+								
+				        	</LinearLayout>
+
+					        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						    android:layout_width="fill_parent"
+						    android:layout_height="wrap_content"
+						    android:orientation="vertical"
+						    android:gravity="center"
+   				            android:paddingTop="10dip" 
+							>
+						        <TextView 
+									android:id ="@+id/name_stage"
+									style="@style/topDetails"
+						    	    android:text="@string/NAME_OBSCURED" />
+				
+						        <TextView
+						       		android:id="@+id/region"     
+							        android:layout_width="match_parent"
+						   	    	android:layout_height="wrap_content"
+						    	    android:text="@string/REGION_OBSCURED" />
+					        		    
+						        <TextView
+						            android:id="@+id/comments"
+							        android:layout_width="match_parent"
+						   	    	android:layout_height="wrap_content"
+						   	    	android:paddingTop="15dip"
+						   	    	android:text="@string/COMMENTS_OBSCURED" />
+		
+							</LinearLayout>
+					
+			</LinearLayout>
+		        
+</ScrollView>

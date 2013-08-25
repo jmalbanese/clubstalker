@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical" >
+
+
+	    <!-- open layout for photo and stats -->
+
+		    
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/maincontentdescription"
+            android:scaleType="fitCenter"
+            android:paddingBottom="5dip"
+            android:src="@drawable/stub" />
+
+		        
+        <TextView
+            android:id="@+id/name_stage"
+            style="@style/topDetails"
+            android:layout_gravity="center"
+            android:paddingBottom="5dip"
+            android:text="@string/NAME_OBSCURED" />
+
+    
+    
+    <LinearLayout  
+        android:layout_height = "wrap_content"
+        android:layout_width="match_parent" 
+        android:id="@+id/surfaceLayout" 
+        android:orientation="vertical"
+        android:paddingBottom="5dip"   >
+
+        <!-- 
+		    <SurfaceView
+		        android:id="@+id/mediaPlayerView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+        		android:padding="5dip"
+		        android:layout_gravity="center" >
+		    </SurfaceView>
+		-->
+	</LinearLayout>    
+    
+
+    <LinearLayout 	android:layout_height="wrap_content"
+        			android:layout_width="wrap_content" 
+        			android:id="@+id/linearLayout2" 
+        			android:baselineAligned="true"
+		            android:gravity="center"
+        			android:orientation="horizontal"
+     >
+			        <Button 
+			            android:id="@+id/buttonMapPhone"
+				        style="@style/callmebuttons"
+				        android:drawableTop="@drawable/imagebuttontelephone"
+				        android:text="@string/BUTTON_LABLE_PHONE" >
+			        </Button>
+        
+        	        <Button 
+				            android:id="@+id/buttonMapShare"
+					        style="@style/callmebuttons"
+				            android:text="@string/BUTTON_LABLE_SHARE" 
+					        android:drawableTop="@drawable/imagebuttonsms">
+			        </Button>
+		
+			        <Button 
+			            android:id="@+id/buttonMapEmail"
+				        style="@style/callmebuttons"
+			            android:text="@string/BUTTON_LABLE_MAIL" 
+				        android:drawableTop="@drawable/imagebuttonemail">
+			        </Button>
+		
+			       <Button
+					   android:id="@+id/play"
+				        style="@style/callmebuttons"
+				       android:text="@string/BUTTON_LABLE_PLAY" 
+				       android:drawableTop="@drawable/imagebuttonvideo">
+			      </Button>
+        
+    	</LinearLayout>
+
+</LinearLayout>

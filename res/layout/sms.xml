@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/layout/main.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+
+	    <!-- open layout for photo and stats -->
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	    android:orientation="horizontal" 
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="wrap_content"
+	    	    android:paddingLeft="10dip"
+	    	    >
+	    
+	        <ImageView
+	        android:id="@+id/image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:scaleType="centerCrop"
+	        android:contentDescription="@string/maincontentdescription"
+	        android:src="@drawable/stub" />
+
+			<!-- open layout for stats -->
+		            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:orientation="vertical"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:paddingLeft="10dip"
+				    >
+		          				        					
+				        <TextView 
+							android:id ="@+id/name_stage"	            
+							style="@style/topDetail"
+				    	    android:text="@string/NAME_OBSCURED" />
+		
+			            <TextView
+				       		android:id="@+id/region"     
+				        	android:textSize="10dip"
+					        android:layout_width="100dip"
+			   	    		android:layout_height="wrap_content"
+			    	    	android:text="@string/REGION_OBSCURED" />
+		       		</LinearLayout> <!-- close stats layout -->
+
+		        </LinearLayout>    <!-- close layout for photo and stats -->    	    	
+
+
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	    android:orientation="vertical" android:layout_width="fill_parent"
+	    	    android:layout_height="wrap_content"
+				>
+	    	    <TextView android:layout_width="wrap_content"
+	    	    	    android:layout_height="wrap_content" 
+	    	    	    android:text="@string/YOUR_SMS_MESSAGE" 
+	    	    />
+
+	    	    <EditText android:id="@+id/msgEditText" 
+	    	        	android:inputType="textShortMessage"
+	    	        	android:maxLength="139"
+	    	        	android:layout_width="fill_parent"
+	    	    	    android:layout_height="wrap_content" 
+	    	    	    android:text= "@string/DEFAULT_SMS_MESSAGE" />
+
+	    </LinearLayout>
+
+	    <Button android:id="@+id/sendSmsBtn" 
+		        style="@style/callmebuttons"
+		        android:drawableTop="@drawable/imagebuttonsms"
+	    	    android:text="@string/SEND" 
+	    />
+
+</LinearLayout>
+

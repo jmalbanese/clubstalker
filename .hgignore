@@ -1,0 +1,9 @@
+syntax: glob
+*.class
+bin/*
+gen/com/clubstalker/BuildConfig.java
+gen/com/clubstalker/R.java
+.settings/org.eclipse.ltk.core.refactoring.prefs
+gen/com/clubzoni/BuildConfig.java
+gen/com/clubzoni/R.java
+lint.xml

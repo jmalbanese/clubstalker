@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splashcontentdescription">This is the splash screen</string>
+    <string name="maincontentdescription">This is the main screen</string>
+    <string name="detailscontentdescription">This is the detail screen</string>
+    <string name="portraitcontentdescription">This is the portrait screen</string>
+    <string name="thumbnailcontentdescription">This is the thumbnail screen</string>
+
+    <!--  dialog text  -->
+    <string name="exit_clubzoni">Exit ClubZoni?</string>
+
+    <string name="uploading_profile">Uploading Profile&#8230;\nIt may take a few minutes for your changes to show.</string>
+    <string name="uploading_profile_body">Pushing your profile and picture to ClubZoni.</string>
+    <string name="uploading_profile_ok">Update Successful.</string>
+    <string name="uploading_profile_not_ok">Update Failed\nTry again.</string>
+    
+    <string name="activate_gps">Turn On</string>
+    
+    <!--  EULA  -->
+    <string name="eula_title">License Agreement</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_refuse">Don\'t Accept</string>
+ 
+    <!-- AUTO REGISTRATION  -->
+    <string name="registration_title">Auto Registration</string>
+    <string name="registration_allow">Accept</string>
+    <string name="registration_dont_allow">Refuse</string>
+    <string name="postUpdates">Share your profile with other crawlers</string>
+    
+    <string name="tester">Gallery GridView</string>
+    <string name="app_name">ClubZoni</string>
+
+    <string name="TITLE_0">ClubZoni</string>
+    <string name="TITLE_1">Where to go.</string>
+    <string name="COPYRIGHT"> an EvilKitty Project (©)2012 EvilKitty</string>
+    <string name="MAIN">ClubZoni</string>
+    
+    <!--  profile details screen  -->
+    <string name ="PROFILE_NAME_LABEL">Your ClubZoni name</string>
+    <string name ="PROFILE_TITLE">Add your name and a picture.</string>
+    <string name ="PROFILE_COMMENT_LABEL">Broadcast these comments.</string>
+    <string name ="PROFILE_PHONE_LABEL">Show this phone number.</string>
+	<string name="CHOOSE_YOUR_IMAGE">Get a profile picture.</string>
+	<string name= "SAVE_PROFILE">Save Your Profile</string>
+	<string name= "PROFILE_SHARE_COMMENT">Send Comment</string>
+	<string name="PROFILE_TWITTER_LABLE">Show this Twitter Id.         </string>
+	
+	
+    <!--  content Description for Splash Screen image -->
+    <string name="SHOW_SPLASH">Where to go.</string>
+    
+    <string name="activity_map">ClubZoni Map</string><string name="application_name">ClubZoni</string>
+	
+	<string name="activity_map_view_la">Map View Los Angeles</string>
+	<string name="activity_search">ClubZoni Search Results</string>
+	
+	<string name="search_hint">Find in Los Angeles</string>
+	
+<!-- ClubZoni Details Activity  -->
+	<string name="NAME_OBSCURED">***** *******</string>
+	<string name="AGE_OBSCURED">**</string>
+	<string name="AGE_LABEL">Age</string>
+	<string name="REGION_OBSCURED">******</string>
+	<string name="NATIONALITY_OBSCURED">**********</string>
+	<string name="MEASUREMENTS_OBSCURED">36D:23:32</string>
+	<string name="WEIGHT_OBSCURED">110</string>
+	<string name="LBS">lbs.</string>
+	<string name="INCALL_OBSCURED">InCall OutCall</string>
+	<string name="COMMENTS_OBSCURED">*******</string>
+	<string name="WATCH_VIDEO">Video</string>
+	<string name="GALLERY">Gallery</string>
+	<string name="PHONE_OBSCURED">***-***-****</string>
+	<string name="CHAT">Sorry No Chat</string>
+	<string name="EMAIL_OBSCURED">***@****.com</string>
+	<string name="SEND_EMAIL">Send Email</string>   
+	<string name="SMS">Send SMS</string>
+	<string name="YOUR_SMS_MESSAGE">Your message:</string>
+	<string name="DEFAULT_SMS_MESSAGE"> </string>
+	<string name="SEND">Send</string>
+	
+	<string name="SORRY_PRIVATE">Privacy in effect for this member.</string>
+	    
+	<string name="BUTTON_LABLE_MAIL">Mail</string>
+	<string name="BUTTON_LABLE_PHONE">Phone</string>
+	<string name="BUTTON_LABLE_SMS">SMS</string>
+	<string name="BUTTON_LABLE_SHARE">Share</string>
+	<string name="BUTTON_LABLE_MAP">Map</string>
+	<string name="BUTTON_LABLE_GALLERY">Pix</string>
+	<string name="BUTTON_LABLE_VIDEO">Video</string>
+	<string name="BUTTON_LABLE_PLAY">Play</string>
+	<string name="BUTTON_LABLE_CAMERA">Camera</string>
+	<string name="BUTTON_LABLE_YOU_PICK">Gallery</string>
+	
+					
+						
+	<string name="SEARCH">Search</string>
+	<string name ="CANT_FIND_ENTITY_BY_NAME">Sorry did not find any matches for your search.</string>
+
+	<string name ="NET_ERROR_AIRPLANE_MODE">No internet connection is available.  See if your phone or tablet is in airplane mode in your settings panel.</string>
+	<string name ="NET_ERROR_CANT_CONNECT">Can\'t connect to internet.</string>
+	<string name ="GPS_ERROR">We can\'t your location because your GPS is turned off.\n Select Turn On and enable Use wireless networks and Use GPS satellites.</string>
+	<string name ="GPS_OFF">GPS is off.</string>
+	<string name ="SERVER_DOWN">Sorry the server is not responding.\n\nIf you are at a hot spot or hotel access the hot spot with the browser to activate service and try again.\n\nMake sure your internet settings are enabled.</string>
+	<string name ="NO_PHONE">Sorry this device does not have phone service.</string>
+	<string name ="NO_PHONE_NUMBER">Sorry this number is not in service.</string>
+			
+	
+	<string name ="MENU_SHOW_ME">ClubZoni Cities</string>
+	<string name ="OPTIONS_SHOW_ALL">World Wide</string>
+	<string name ="OPTIONS_SHOW_LOS_ANGELES">Los Angeles</string>
+	<string name ="OPTIONS_SHOW_LAS_VEGAS">Las Vegas - coming soon</string>
+	<string name ="OPTIONS_SHOW_NEW_YORK">New York - coming soon</string>
+
+	
+	<string name ="DOWNLOADTITLE">ClubZoni</string>
+	<string name ="GETTING_DATA">Getting the Clubs</string>
+	<string name ="GETTING_PATRONS">Finding others</string>
+	
+	<string name ="DOWNLOADVIDEO">ClubZoni</string>
+	<string name ="GETTING_VIDEO">Loading Video - Please Wait</string>
+	<string name ="PLAY">Play</string>
+			
+	<string name ="MENU_OPTIONS">Options</string>	
+	<string name ="OPTIONS_SHOW_SAT">Show Satellite View</string>
+	<string name ="OPTIONS_SHOW_TRAFFIC">Show Traffic</string>
+	<string name ="OPTIONS_SHOW_MY_LOCATION">Show My Location</string>
+
+	<string name ="MENU_ABOUT">About</string>
+	
+	<string name ="SEE_GET_MORE">See More</string>	
+	
+	<string name="OK">OK</string>
+	<string name="CANCEL">Cancel</string>
+	<string name="YES">Yes</string>
+	<string name="NO">No</string>
+	
+	<string name="MALE">Male</string>
+	<string name="FEMALE">Female</string>
+	    
+	<string name="ABOUT">ClubZoni Version</string>
+	<string name="ABOUT_TEXT">Thank you for using ClubZoni.\nClubZoni was made by EvilKitty.   
+	See other products at www.evilkittyrpg.com.\nAll the best from EvilKitty.</string>
+
+	<!-- privacy -->
+	<string name="PROFILE_PRIVACY_LABLE">Your Privacy Settings</string>
+	<string name="FREEZE_OUT">Freeze Out - Show nothing about me.</string>
+	<string name="ANONYMOUS">Anonymous - Show me only as a dot when within 100 meters of a club or venue.</string>
+	<string name="THOUSAND_YARD_STARE">100 Yard Stare - Show my info only within 100 meters of a club or venue</string>
+	<string name="SHOW_IT_ALL">Everything - Show my info all the time.  Warning! This could reveal when and where you are at home.</string>
+	<string name="NUKE_ME">Nuke Me - Destroy all my ClubZoni info now, permanently.</string>
+	<string name="NUKE_ME_DIALOG_TEXT">Erase your ClubZoni profile on this device?\nAny data you may have on our server will be deleted sometime in the next 2 days.</string>
+	<string name="NUKE_ME_NOW">Nuke Me Now</string>
+	<string name="NUKE_ME_NO">No Nuke</string>
+	
+ </resources>

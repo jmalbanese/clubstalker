@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_navigation_on"
+          android:icon="@drawable/maps"
+          android:title="@string/MENU_SHOW_ME">
+          <menu>
+          		<group android:checkableBehavior="single">
+          		    <item 
+          			       	android:id ="@+id/option_show_all"
+        	 				android:title ="@string/OPTIONS_SHOW_ALL" 
+       	  					android:checked ="true" />
+          			<item 
+          			       	android:id ="@+id/option_show_los_angeles"
+        	 				android:title ="@string/OPTIONS_SHOW_LOS_ANGELES" 
+       	  					android:checked ="false" />
+         			<item 
+          	   	    		android:id ="@+id/option_show_las_vegas"
+         					android:title ="@string/OPTIONS_SHOW_LAS_VEGAS"
+         					android:enabled ="false"
+         					android:checked ="false" />
+         			<item 
+          	   		    	android:id ="@+id/option_show_new_york"
+         					android:title ="@string/OPTIONS_SHOW_NEW_YORK"
+         					android:enabled ="false"
+         					android:checked ="false" />
+         		</group>
+        	</menu>
+    </item>    	
+    <item android:id="@+id/menu_options"
+          android:icon="@drawable/settings"
+          android:title="@string/MENU_OPTIONS">
+          <menu>
+          	<group android:checkableBehavior="all">
+         		<item 
+          		       	android:id ="@+id/option_sat"
+         				android:title ="@string/OPTIONS_SHOW_SAT" />
+          		<item 
+          		       	android:id ="@+id/option_show_me"
+         				android:title ="@string/OPTIONS_SHOW_MY_LOCATION" 
+         				android:checked ="false" />
+         		<item 
+          	   	    	android:id ="@+id/option_traffic"
+         				android:title ="@string/OPTIONS_SHOW_TRAFFIC" />
+         	</group>
+         </menu>
+    </item>
+    <item android:id="@+id/menu_about"
+          android:icon="@drawable/ek125"
+          android:title="@string/MENU_ABOUT">
+    </item>
+</menu>

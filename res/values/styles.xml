@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="callme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:childDivider">#FF0000</item>
+        <item name="android:windowBackground">@color/callme_background_color</item>
+        
+    </style>
+<!--  we try a style on the buttons  -->
+
+    <style name="callmebuttons" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/buttonbg</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:paddingTop">5sp</item>
+        <item name="android:paddingBottom">5sp</item>
+        <item name="android:paddingRight">5sp</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginTop">5sp</item>
+    </style>
+
+   <style name="callmeindexlist" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:divider">@color/color_orange</item>"
+        <item name="android:dividerHeight">1sp</item>"
+    </style>
+    
+    <style name="mapView">
+    	<item name="android:gravity">center</item>
+	</style>
+   
+   <style name="callmetab" parent="@android:style/Widget.TabWidget">
+       <item name="android:background">@color/color_orange</item>
+   </style>
+   
+   
+   <!-- name age location in details text -->
+   <style name="indexnameageregion" parent="@android:style/Widget.TextView">
+   		 <item name="android:paddingLeft">10dip</item>
+   		 <item name="android:paddingTop">0dip</item>
+   		 <item name="android:textSize">10dip</item>
+	</style>
+
+   <!-- details text box for comments  -->
+   
+   <style name="indexcomments" parent="@android:style/Widget.TextView">
+   		 <item name="android:paddingLeft">10dip</item>
+   		 <item name="android:paddingTop">5dip</item>
+   		 <item name="android:textSize">10dip</item>
+	</style>
+	
+   <style name="topDetail" parent="@android:style/Widget.TextView">
+   		 <item name="android:layout_width">match_parent</item>
+   		 <item name="android:layout_height">wrap_content</item>
+   		 <item name="android:textSize">10dip</item>
+   		 <item name="android:textColor">@color/color_orange</item>
+   </style>
+   
+      <style name="topDetails" parent="@android:style/Widget.TextView">
+   		 <item name="android:layout_width">wrap_content</item>
+   		 <item name="android:layout_height">wrap_content</item>
+   		 <item name="android:textSize">20dip</item>
+   		 <item name="android:textColor">@color/color_orange</item>
+   </style>
+</resources>

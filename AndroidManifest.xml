@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clubzoni"
+	android:versionCode = "7" android:versionName="Venus 7" >
+	
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+ 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ 	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-sdk android:minSdkVersion="8"  android:targetSdkVersion="8" />
+	
+<!-- 
+label : shown on device menu  see res.values.strings.xml
+icon  : displayed on device menu
+       			 android:screenOrientation="portrait"
+ 
+ -->
+    <application	android:label="@string/application_name"
+            		android:icon="@drawable/ic_launcher" 
+            		android:name = "com.evilkittyrpg.application.AppApplication"
+            		android:theme="@style/callme"    >
+
+        <uses-library
+            	android:required="true" 
+            	android:name="com.google.android.maps" >
+        </uses-library>
+
+<!-- splash screen launcher  -->
+
+		<activity 	android:name=".SplashActivity"
+		    		android:screenOrientation="portrait"
+		    		android:label="@string/application_name"   >
+		    		
+	    <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+		    
+		</activity>
+
+		
+<!--  added for lint  -->
+		
+		<activity	android:name=".DetailsCommon"
+		    		android:label="@string/MAIN"   	>
+		</activity>
+		
+
+<!-- profile editor -->
+		
+		<activity	android:name=".ProfileActivity"
+		    		android:label="@string/MAIN"   	>
+		</activity>
+		
+				
+<!--  tabs  -->
+
+			<activity 	android:name=".AppTabActivity" 
+    				android:label="@string/MAIN"
+         	>
+            </activity>
+            
+		
+<!-- patrons detail page -->
+		
+		<activity	android:name=".PatronDetailsActivity"
+		    		android:label="@string/MAIN" >
+    	</activity>
+
+<!--  the massage picker -->
+
+		<activity	android:name=".PerformerIndexActivity"
+		    		android:label="@string/MAIN" >
+            
+		</activity>
+
+<!--  massage details -->
+		
+		<activity	android:name=".PeformerDetailsActivity"
+		    		android:label="@string/MAIN" >
+          
+    	</activity>
+
+				
+<!--  the club picker -->
+
+		<activity	android:name=".ClubIndexActivity"
+					android:label="@string/MAIN"  		>
+            
+		</activity>
+
+<!--  the club details -->
+
+		<activity	android:name=".ClubDetailsActivity"
+		    		android:label="@string/MAIN"   		>
+            
+		</activity>
+				
+<!--  the patron list -->
+
+		<activity	android:name=".PatronIndexActivity"
+		    		android:label="@string/MAIN"   		>
+		</activity>
+								
+				
+<!-- girls thumb nail page -->
+		
+		<activity	android:name=".ThumbnailActivity"
+    				android:label="@string/MAIN"		>          
+    	</activity>
+
+<!-- girls portrait ( full size ) page -->
+		
+		<activity	android:name=".PortraitActivity"
+    				android:label="@string/MAIN"		>
+
+    	</activity>
+
+<!-- girls mediaplayer video page -->
+		
+		<activity	android:name=".MediaPlayerVideoActivity"
+    				android:label="@string/MAIN"
+	        		android:screenOrientation="portrait" >
+    	</activity>
+
+<!-- girls video page -->
+		
+		<activity	android:name=".VideoActivity"
+    				android:label="@string/MAIN"   		>
+          
+    	</activity>
+		
+<!-- map activity -->
+<!-- 
+http://developer.android.com/guide/topics/manifest/activity-element.html
+-->
+        <activity 
+        		android:name=".AppMapActivity"
+        		android:label="@string/activity_map_view_la"    >
+
+        </activity>
+
+        <!-- SMS IS HERE  -->
+<!-- 
+        <activity android:name=".SmsActivity"   	>
+        	
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+            
+	        <receiver android:name="com.clubzoni.MySMSMonitor">
+	            
+    			<intent-filter>
+       	 		<action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+    			</intent-filter>
+			</receiver>
+        </activity>
+
+-->  	        
+        <!-- Search Activity -->
+        <activity 
+       			android:name=".SearchActivity" 
+       			android:label="@string/activity_search"
+      			android:launchMode="singleTop"					        >
+        	
+        		<meta-data 	android:name="android.app.searchable" 
+   	    					android:resource="@xml/searchable"   	    	/>
+        </activity>
+        		
+	    <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation"/>
+        
+   </application>
+</manifest>

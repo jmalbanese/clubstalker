@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation ="horizontal" 
+	    android:baselineAligned="false"
+	    >
+	    
+	    <ScrollView     xmlns:android="http://schemas.android.com/apk/res/android"
+ 			   			android:layout_width="0dip"
+ 			   			android:layout_weight="50"
+    					android:layout_height="fill_parent"
+   						android:fillViewport="true"
+			>
+			
+   			        <LinearLayout
+   			            xmlns:android="http://schemas.android.com/apk/res/android"
+   			            android:layout_width="fill_parent"
+   			            android:layout_height="wrap_content"
+   			            android:orientation="vertical"
+   			             >
+   			            		    
+						<ImageView
+					        android:id="@+id/image"
+					        android:layout_gravity="center_horizontal"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:scaleType="centerInside"
+					        android:src="@drawable/stub" 
+					        android:contentDescription="@string/detailscontentdescription"
+					        />
+
+							<LinearLayout
+							xmlns:android="http://schemas.android.com/apk/res/android"
+	   			            android:layout_width="fill_parent"
+	   			            android:layout_height="wrap_content"
+	   			            android:gravity="center"
+	   			            android:orientation="horizontal"
+						    >
+					
+							    <Button
+							        android:id="@+id/gallery"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttongallery"
+							        android:text="@string/BUTTON_LABLE_GALLERY"
+							    />
+																        						
+							    <Button
+							        android:id="@+id/video"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttonvideo"
+							        android:text="@string/BUTTON_LABLE_VIDEO"
+							    />
+									    
+								<Button
+								        android:id="@+id/phone"
+								        style="@style/callmebuttons"
+								        android:drawableTop="@drawable/imagebuttontelephone"
+								        android:text="@string/BUTTON_LABLE_PHONE" 
+							        />
+				        	</LinearLayout>
+
+							<LinearLayout
+							xmlns:android="http://schemas.android.com/apk/res/android"
+	   			            android:layout_width="fill_parent"
+	   			            android:layout_height="wrap_content"
+	   			            android:gravity="center"
+	   			            android:orientation="horizontal"
+						    >
+								<!-- 
+							   	<Button
+							        android:id="@+id/email"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttonemail"
+							        android:text="@string/BUTTON_LABLE_MAIL"
+							     />
+							    
+							    <Button
+							        android:id="@+id/sms"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttonsms"
+							        android:text="@string/BUTTON_LABLE_SMS" 
+							    />
+							    -->		
+							    <Button
+							        android:id="@+id/map"
+							        style="@style/callmebuttons"
+							        android:drawableTop="@drawable/imagebuttonmap"
+							        android:text="@string/BUTTON_LABLE_MAP"
+							   />
+							     					    						
+						</LinearLayout>
+					    					    						
+					</LinearLayout>
+						
+			</ScrollView>			
+				<!--  left column -->
+			
+			  <ScrollView     xmlns:android="http://schemas.android.com/apk/res/android"
+ 			   			android:layout_width="0dip"
+ 			   			android:layout_weight="50"
+    					android:layout_height="fill_parent"
+   						 android:fillViewport="true"
+				>
+								
+		        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						    android:layout_width="fill_parent"
+						    android:layout_height="wrap_content"
+						    android:orientation="vertical"
+   				            android:padding="5dip" 
+							>
+	
+		            				        					
+					        <TextView 
+								android:id ="@+id/name_stage"	            
+								style="@style/topDetails"
+					    	    android:text="@string/NAME_OBSCURED" />
+			
+
+				        <TextView
+				       		android:id="@+id/incall"     
+					        android:layout_width="match_parent"
+				   	    	android:layout_height="wrap_content"
+				    	    android:text="@string/INCALL_OBSCURED" />
+				        										        
+				        <TextView
+				       		android:id="@+id/region"     
+					        android:layout_width="match_parent"
+				   	    	android:layout_height="wrap_content"
+				    	    android:text="@string/REGION_OBSCURED" />
+				        		    
+				        <TextView
+				            android:id="@+id/comments"
+					        android:layout_width="match_parent"
+				   	    	android:layout_height="wrap_content"
+				   	    	android:paddingTop="15dip"
+				   	    	android:paddingBottom="15dip"
+				   	    	android:paddingLeft="0dip"
+				   	    	android:paddingRight="10dip"
+				   	    	android:text="@string/COMMENTS_OBSCURED" />
+
+					</LinearLayout>
+				</ScrollView>
+	</LinearLayout>		        

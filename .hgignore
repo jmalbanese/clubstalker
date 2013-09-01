@@ -7,3 +7,4 @@ gen/com/clubstalker/R.java
 gen/com/clubzoni/BuildConfig.java
 gen/com/clubzoni/R.java
 lint.xml
+*.git/*
